@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "WebFetch(domain:www.in.gov)",
+      "WebFetch(domain:indianalegalhelp.org)",
+      "Bash(npm run build:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run test:coverage:*)"
+    ],
+    "deny": []
+  }
+}
