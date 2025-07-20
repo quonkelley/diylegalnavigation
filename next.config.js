@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/diylegalnavigation',
+  assetPrefix: '/diylegalnavigation/',
   images: {
     unoptimized: true
   },
@@ -10,4 +12,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig
